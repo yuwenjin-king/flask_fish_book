@@ -1,7 +1,7 @@
 
 from urllib import request
 import requests
-class HTTP:
+class HTTPer:
     def get(self,url,return_json=True):
         r = request.get(url)
         #restful
